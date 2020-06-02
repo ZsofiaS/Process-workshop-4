@@ -14,7 +14,6 @@ describe('Scrabble', function() {
 
   it('returns 1 when the input is "a"', function() {
     string = 'a';
-
     expect(scrabble.score()).toEqual(1);
   })
 
@@ -31,7 +30,6 @@ describe('Scrabble', function() {
 
   it('returns 2 when input is "aa"', function() {
     string = 'aa';
-    console.log(scrabble.score())
     expect(scrabble.score()).toEqual(2);
   })
 })
