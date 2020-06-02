@@ -3,6 +3,10 @@ class Scrabble {
     this.string = string;
   }
   score() {
-    return 0;
+    if (string.length === 0) {
+      return 0;
+    } else {
+      return 1;
+    }
   }
 }
