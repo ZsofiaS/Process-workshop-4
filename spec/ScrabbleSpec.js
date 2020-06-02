@@ -16,4 +16,9 @@ describe('Scrabble', function() {
     string = 'a';
     expect(scrabble.score()).toEqual(1);
   })
+
+  it('returns 4 when the input is "f"', function() {
+    string = 'f';
+    expect(scrabble.score()).toEqual(4);
+  })
 })
