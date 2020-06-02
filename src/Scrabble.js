@@ -3,7 +3,7 @@ class Scrabble {
     this.string = string;
   }
   score() {
-    if (string.length === 0) {
+    if (string === null || string.length === 0 ) {
       return 0;
     } else if (string === 'a') {
       return 1;

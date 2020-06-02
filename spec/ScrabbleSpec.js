@@ -21,4 +21,9 @@ describe('Scrabble', function() {
     string = 'f';
     expect(scrabble.score()).toEqual(4);
   })
+
+  it('returns 0 when input is null', function() {
+    string = null;
+    expect(scrabble.score()).toEqual(0);
+  })
 })
